@@ -1,0 +1,50 @@
+// ============================================
+// 版权：Copyright (c) {{YEAR}} {{AUTHOR}}. All rights reserved.
+// 文件名称：{{FILENAME}}
+// 作者：{{AUTHOR}}
+// 创建时间：{{CREATE_TIME}}
+// 修改时间：
+// 版本：1.0.0
+// 描述：{{DESCRIPTION}}
+// Github：{{GITHUB_URL}}
+// ============================================
+
+using UnityEngine;
+
+namespace {{NAMESPACE}}
+{
+    /// <summary>
+    /// {{DESCRIPTION}}
+    /// </summary>
+    [CreateAssetMenu(fileName = "New{{CLASS_NAME}}", menuName = "GB/{{CLASS_NAME}}")]
+    public class {{CLASS_NAME}} : ScriptableObject
+    {
+        #region Serialized Fields
+        
+        [SerializeField] private string dataField;
+        [SerializeField] private int intField;
+        [SerializeField] private float floatField;
+        
+        #endregion
+        
+        #region Public Properties
+        
+        public string DataField => dataField;
+        public int IntField => intField;
+        public float FloatField => floatField;
+        
+        #endregion
+        
+        #region Public Methods
+        
+        /// <summary>
+        /// 示例方法
+        /// </summary>
+        public void DoSomething()
+        {
+            Debug.Log($"ScriptableObject: {name}");
+        }
+        
+        #endregion
+    }
+}

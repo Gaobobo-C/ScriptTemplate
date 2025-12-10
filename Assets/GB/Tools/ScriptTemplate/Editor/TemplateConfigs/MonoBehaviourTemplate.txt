@@ -1,0 +1,35 @@
+// ============================================
+// 版权：Copyright (c) {{YEAR}} {{AUTHOR}}. All rights reserved.
+// 文件名称：{{FILENAME}}
+// 作者：{{AUTHOR}}
+// 创建时间：{{CREATE_TIME}}
+// 修改时间：
+// 版本：1.0.0
+// 描述：{{DESCRIPTION}}
+// Github：{{GITHUB_URL}}
+// ============================================
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace {{NAMESPACE}}
+{
+    /// <summary>
+    /// {{DESCRIPTION}}
+    /// </summary>
+    public class {{CLASS_NAME}} : MonoBehaviour
+    {
+         // Start is called before the first frame update
+        void Start()
+        {
+            
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+        
+        }
+     }
+ }
